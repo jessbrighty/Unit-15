@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Different Selectors</title>
+    <style>
+        .heading {
+            background-color:aqua;
+            border:2px solid black;
+            text-align:center;
+        }
+        .paragraph {
+            background-color:darkseagreen;
+            border:2px solid black;
+            font:georgia;
+            padding:10px;
+        }
+        #heading {
+            background-color:cadetblue;
+            border:4px blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Different Selectors</h1>
+    <h3>Class Attribute</h3>
+    <p>The class attribute is where, in the style tag, all the CSS for certain classes is coded. When writing out the webpage, add the class to the start of the tag depending on what class you want to use to add that CSS code to that piece of text</p>
+    <div class="heading">
+        <h2>This heading should be effected as its been put into the 'heading' class</h2>
+        <h4>This one should too!</h4>
+    </div>
+    <br>
+    <div class="paragraph">
+        <p>This paragraph should also be effected but it should have the same effect as the headings above.</p>
+        <p>This is because they have been added into different classes</p>
+    </div>
+    <p>But if you put text outside of a class, it will not have any effect from the CSS coding</p>
+    <p>Looking at the top of this coding file, you cans see where i added the class attribute</p>
+
+    <h3>ID Attribute</h3>
+    <p>The ID Attribute is where there is a specific, unique id for a html element, which is also unique to the html file/page</p>
+    <h4 id="heading">This should have CSS effect!</h4>
+    <p id="heading">This should also have the same effect even though this is a paragraph, not a heading!</p>
+
+    <h3>Universal Attribute</h3>
+    <p>the Universal attribute, or the * attribute, allows everything within the webpage to be effected by whats put beside the * tag within the style tag</p>
+    <a href="universalselector.html">click this link to see my example/result of using the universal selector</a>
+</body>
